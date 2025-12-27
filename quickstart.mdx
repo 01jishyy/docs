@@ -1,80 +1,63 @@
 ---
 title: "Quickstart"
-description: "Start building awesome documentation in minutes"
+description: "This part of the docs will help guide you to your first use."
 ---
 
 ## Get started in three steps
 
 Get your documentation site running locally and make your first customization.
 
-### Step 1: Set up your local environment
+### Step 1: Set up your tkens
 
 <AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, you created a GitHub repository with your docs content if you didn't already have one. You can find a link to this repository in your [dashboard](https://dashboard.mintlify.com).
-    
-    To clone the repository locally so that you can make and preview changes to your docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) guide in the GitHub docs.
+  <Accordion title="Add your first tken." icon="copy">
+    At first, when you open the [dashboard](https://paradise.wasmer.app/), you will be provided with 4 options and in those 4 button options, you will have to press Setup. It'll take you to a page where you would be prompted to add your account (tken) and an alias (a nickname for the tken). Once you fill in both fields, you can press continue.
+
+    If you ever want to delete or re-add it, you can always go back to the tken page and press delete and do the process again. Same for another tken, go to the tken page and press on "add tken" and do the process again.
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Start the preview server">
-    1. Install the Mintlify CLI: `npm i -g mint`
-    2. Navigate to your docs directory and run: `mint dev`
-    3. Open `http://localhost:3000` to see your docs live!
-    
-    <Tip>Your preview updates automatically as you edit files.</Tip>
+  <Accordion title="Start the bot" icon="rectangle-terminal">
+    Once you've added everything necessary, you will be redirected to the actual dashboard, in which you can press "Start," and that will automatically start the bot.
+
+    <Tip>
+      The bot automatically adjusts to the changes you make on the dashboard.
+    </Tip>
   </Accordion>
 </AccordionGroup>
 
-### Step 2: Deploy your changes
+### Step 2: Set up Extras.
 
 <AccordionGroup>
-  <Accordion icon="github" title="Install our GitHub app">
-    Install the Mintlify GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app).
-    
-    Our GitHub app automatically deploys your changes to your docs site, so you don't need to manage deployments yourself.
-</Accordion>
-<Accordion icon="palette" title="Update your site name and colors">
-    For a first change, let's update the name and colors of your docs site.
+  <Accordion title="Setup MDM" icon="github">
+    As we all know, you are most likely here for the mdm feature. This will teach you how to use it.
 
-    1. Open `docs.json` in your editor.
-    2. Change the `"name"` field to your project name.
-    3. Update the `"colors"` to match your brand.
-    4. Save and see your changes instantly at `http://localhost:3000`.
+    1. When you open the dashboard, you have to scroll down till you see categories for the bot. In that section, the category "MDM" will be visible. Then, you click it.
+    2.  Once you click the category, the MDM menu will open, where you can specify how many users you want it to send to and what message you want it to send. Optionally, you can put any user id's which you want to be excluded.
+    3.  Once it starts, it will send the messages accordingly. Also, when it finishes, it will say on the dashboard how many users it could send to and how many it couldn't.
+  </Accordion>
+  <Accordion title="Custom Rich Presence (RP)" icon="palette">
+    To set up the Rich Presence, you have to go to the**Custom Rich Presence**  category in the dashboard. Once it is opened, you will follow these steps:
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
+    1. Select the activity you want to display. (E.g. playing, streaming, etc...)
+    2. Specify a title for it to display. (e.g. dancing to 6lack)
+    3. In the Large Image field, paste a link to an image you want associated with your**RP.** 
+    4. Press save, and watch it automatically update your profile. 
+
+    <Tip>
+      The bot must be started for it to update; otherwise, it'll update after the bot starts.
+    </Tip>
   </Accordion>
 </AccordionGroup>
 
-### Step 3: Go live
+### 
 
-<Accordion icon="rocket" title="Publish your docs">
-  1. Commit and push your changes.
-  2. Your docs will update and be live in moments!
-</Accordion>
-
-## Next steps
-
-Now that you have your docs running, explore these key features:
+## Dashboard
 
 <CardGroup cols={2}>
-
-<Card title="Write Content" icon="pen-to-square" href="/essentials/markdown">
-  Learn MDX syntax and start writing your documentation.
-</Card>
-
-<Card title="Customize style" icon="palette" href="/essentials/settings">
-  Make your docs match your brand perfectly.
-</Card>
-
-<Card title="Add code examples" icon="square-code" href="/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
-
-<Card title="API documentation" icon="code" href="/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
+  <Card title="Dashboard" icon="file-dashed-line" href="https://paradise.wasmer.app/">
+    Here is a quick link to the dashboard.
+  </Card>
 </CardGroup>
 
 <Note>
-  **Need help?** See our [full documentation](https://mintlify.com/docs) or join our [community](https://mintlify.com/community).
+  **Need help?** Message @x7pu or join the [community](https://discord.gg/fiji).
 </Note>
